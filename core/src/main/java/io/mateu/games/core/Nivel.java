@@ -8,4 +8,5 @@ public interface Nivel {
 
     void actualizar(long deltaTime);
 
+    void dibujar(Renderizador renderizador);
 }
